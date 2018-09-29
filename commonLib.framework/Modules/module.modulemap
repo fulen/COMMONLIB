@@ -1,0 +1,6 @@
+framework module commonLib {
+  umbrella header "commonLib.h"
+
+  export *
+  module * { export * }
+}
