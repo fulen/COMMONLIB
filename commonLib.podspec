@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author             = { "QiFn" => "Fu-Min.Qi@PERKINELMER.COM" }
   s.source       = { :git => "https://github.com/fulen/commonLib.git", :tag => "#{s.version}" }
 
-  s.vendored_frameworks = "commonLib.framework"
+  s.vendored_frameworks = "commonLib/*.framework"
   # s.source_files  = "commonLib", "commonLib/**/*.{h,m}"
   # s.source_files  = "commonLib/commonLib/*.h"
   # s.source_files  = "commonLib/**/*.h"
